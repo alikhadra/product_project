@@ -174,7 +174,7 @@ section.prices .tilte h3{
     color: #555;
 }
 section.prices .plan {
-  width: 100%;
+  /* width: 100%; */
   background-color: #fff;
   color: #a9a9ab;
   border: 2px solid #ededed;
@@ -214,27 +214,34 @@ section.prices .plan.popular {
 section.prices .plan.popular button {
   border: 1px solid #7233a2;
   background-color: #7233a2;
-  color: #ffffff; 
+  color: #fff;
+  font-family: ar-font;
+  border-radius: 0px;
+  padding: .5rem 1.75rem;
 }
 section.prices .plan.popular button:hover {
-  background: #fff;
-  color: #7233a2; 
+  background: #7233a2;
+  color: #fff; 
+}
+section.prices .plan ul li {
+    font-size: 15px;
+    line-height: 30px;
+    margin-bottom: 20px;
 }
  section.prices .plan ul{
-  line-height: 40px;
-  color: #555555;
-  padding: 4px;
+  padding: 0;
+  margin: 0;
 }
 section.prices .plan{
     padding-bottom: 10px;
 }
 section.faq {
   padding: 55px 0;
-  background-color: #ffffff; 
+  background-color: #fff; 
 }
 section.faq .title h3 {
   font-size: 30px;
-  color: #555555; 
+  color: #555; 
 }
 section.faq .card {
   margin-bottom: 15px;
@@ -385,6 +392,7 @@ section.contact .other-products .media {
 footer {
   background-color: #1d1d1d;
   line-height: 80px; 
+  text-align: right;
 }
 footer .social ul li a {
   width: 40px;
@@ -425,6 +433,12 @@ footer .copyright p {
     section.features .feature .media{
         display: block;
     }
+footer .container .row .social {
+  text-align: center;
+}
+footer .container .row .copyright p {
+  text-align: center;
+}
 }
 
 @media(max-width: 900px){
