@@ -200,7 +200,11 @@ section.prices .plan button {
   color: #7233a2;
   font-family: ar-font;
   padding: .5rem 1.75rem;
-  box-shadow: none; 
+  box-shadow: none;
+  transition: all .5s ease-in-out;
+}
+section.prices .plan .offerButton:hover {
+  font-size: 20px;
 }
 section.prices .plan button:hover {
   background: #7233a2;
@@ -378,6 +382,9 @@ section.contact .other-products .media .media-body h5 {
   color: #aeadad;
   margin-bottom: 15px; 
 }
+section.contact .other-products .media .media-body a {
+  text-decoration: none;
+}
 /* تطبيق التنسيقات الخاصة بالفقرة النصية */
 section.contact .other-products .media .media-body p {
   font-size: 15px;
@@ -416,8 +423,17 @@ footer .social ul li {
   margin-right: 0 !important;
 }
 /* تغيير لون خلفية الأيقونات عند مرور مؤشر الفأرة فوقها */
-footer .social ul li a:hover {
-  background-color: #bd081c; 
+footer .social ul li .pinterest:hover {
+  background-color: #E11A21; 
+}
+footer .social ul li .facebook:hover {
+  background-color: #0C87EF;
+}
+footer .social ul li .google-plus:hover {
+  background-color: #FF0000;
+}
+footer .social ul li .twitter:hover {
+  background-color: #5DA9DD;
 }
 /* التنسيقات الخاصة بالفقرة النصية في أسفل الصفحة */
 footer .copyright p {
